@@ -13,7 +13,7 @@ variable "virtual_network_name" {
   description = "The name of the virtual network"
 }
 
-variable "address_prefix" {
-  type        = string
-  description = "The address prefix for the subnet"
+variable "address_prefixes" {
+  type        = list(string)
+  description = "The list of address prefixes for the subnet"
 }
