@@ -1,0 +1,4 @@
+{
+      "storageAccountName": ${storageAccountName},
+      "storageAccountSasToken": ${storageAccountSasToken}
+}

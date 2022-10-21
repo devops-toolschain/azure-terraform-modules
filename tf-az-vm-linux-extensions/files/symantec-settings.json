@@ -1,0 +1,4 @@
+{
+    "fileUris": ${fileUris},
+    "commandToExecute": ${commandtoexecute}
+}

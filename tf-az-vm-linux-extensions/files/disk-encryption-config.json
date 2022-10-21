@@ -1,0 +1,9 @@
+{
+  "EncryptionOperation": ${EncryptionOperation},
+  "KeyVaultURL": ${KeyVaultURL},
+  "KeyVaultResourceId": ${KeyVaultResourceId},
+  "KeyEncryptionKeyURL": ${KeyEncryptionKeyURL},
+  "KekVaultResourceId": ${KeyVaultResourceId},
+  "KeyEncryptionAlgorithm": "RSA-OAEP",
+  "VolumeType": "All"
+}
