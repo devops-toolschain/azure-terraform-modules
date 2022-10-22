@@ -1,7 +1,7 @@
 output "vm_name" {
-  value = azurerm_virtual_machine.linux_vm.name
+  value = azurerm_linux_virtual_machine.linux_vm.name
 }
 
 output "vm_id" {
-  value = azurerm_virtual_machine.linux_vm.id
+  value = azurerm_linux_virtual_machine.linux_vm.id
 }
