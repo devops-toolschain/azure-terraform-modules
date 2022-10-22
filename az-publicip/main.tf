@@ -12,7 +12,7 @@ resource "azurerm_public_ip" "public_ip" {
   ip_version              = var.ip_version
   idle_timeout_in_minutes = var.idle_timeout_in_minutes
   domain_name_label       = var.domain_name_label
-  reverse_fqdn            = lower(var.reverse_fqdn)
+  reverse_fqdn            = var.reverse_fqdn
   tags                    = var.tags
   # domain_name_label       = join("-", [lower(var.company_code), replace((lower(var.tags["service"])), " ", "-"), replace((lower(var.tags["environment"])), " ", "-"), replace((lower(var.domain_name_label)), " ", "-")])
 }
