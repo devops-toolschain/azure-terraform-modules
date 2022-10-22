@@ -18,6 +18,11 @@ variable "vm_name" {
   description = "The name of the virtual machine"
 }
 
+variable "computer_name" {
+  type        = string
+  description = "The computer name of the virtual machine"
+}
+
 variable "vm_size" {
   type        = string
   description = "The size of the VM"
